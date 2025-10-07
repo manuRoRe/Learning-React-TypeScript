@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 // import './ItemCounter.css';
-import styles from './ItemCounter.module.css';
+import styles from "./ItemCounter.module.css";
 
 interface Props {
   name: string;
@@ -32,9 +32,9 @@ export const ItemCounter = ({ name, quantity = 1 }: Props) => {
       // }}
     >
       <span
-        className={styles['item-text']}
+        className={styles["item-text"]}
         style={{
-          color: count === 1 ? 'red' : 'black',
+          color: count === 1 ? "red" : "black",
         }}
       >
         {name}
